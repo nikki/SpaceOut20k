@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>spaceOut20k</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div id="spaceout">
+        <canvas id="starfield" width="518" height="346"></canvas>        
+        <canvas id="game" width="518" height="346"></canvas>    
+        <div id="director">
+        	<div class="startScreen">
+        	    <h1><span>spaceOut20k</span></h1>
+        	    <ul>
+        		    <li>[1] New Game</li>
+        		    <li>[2] High Scores</li>
+        		    <li class="inst">Left &amp; right arrow keys to move, <br />space to fire, P to pause, Esc to quit.</li>
+        	    </ul>
+        	</div>
+        	<div class="paused">
+        	    <ul>
+        		    <li>[P] Paused</li>
+        		    <li>[ESC] Quit</li>
+        		</ul>
+        	</div>
+        	<div class="level">
+        	   <h1><span>Level One</span></h1>
+        	</div>
+        	<div class="gameOver">
+        	    <h1><span>Game Over</span></h1>
+        	    <ul>
+        	        <li></li>
+        		    <li>Enter your name...</li>
+        		    <li><input type="text" id="score" value="ABC" maxlength="3" autofocus /></li>
+        		    <li class="inst">... and hit Enter<li>
+        		</ul>
+        	</div>
+        	<div class="highScores">
+        	    <h1><span>High Scores</span></h1>
+        	    <ul></ul>
+        	</div>
+        </div> 
+    </div>
+    
+    <script src="spaceout.js"></script>    
+    
+</body>
+</html>
