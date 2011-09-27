@@ -12,7 +12,7 @@ p > a:hover { color: #0092aF }
 #director { position: absolute; z-index: 1; text-align: left; width: 100%; height: 100% }
 #director div { position: relative; text-align: center; width: 100%; height: 100%; display: none }
 #director h1 {
-	text-transform: uppercase;
+    text-transform: uppercase;
     font-size: 52px;
     line-height: 115%;
     padding: 35px 0;
@@ -34,15 +34,13 @@ p > a:hover { color: #0092aF }
 #director ul { margin: 0; padding: 0; list-style-type: none }
 #director li { color: #2058ff; margin-bottom: 5px; font-size: 24px }
 #director .inst { color: white; font-size: 14px }
-
 #director .startScreen { display: block }
-#director .startScreen h1 { font-size : 70px; letter-spacing: -3px }
-#director .startScreen .inst { margin-top: 40px }
+#director .startScreen h1 { font-size : 70px; letter-spacing: -3px; padding-bottom: 55px }
+#director .startScreen .inst { margin-top: 60px }
 #director .level h1 { padding-top: 130px }
 #director .paused { background: rgba(0,0,0,0.5); }
 #director .paused ul { padding-top: 140px }
-#director .highScores .inst { margin-top: 30px }
 #director .gameOver h1 { padding: 60px 0 30px }
 #director .gameOver input { border: 0; outline: 0; background: rgba(0,0,0,0); color: #2058ff;
     margin-top: 20px; text-align: center; font-size: 20px; font-weight: bold }
-#director .gameOver .inst { margin-top: 20px }
+#director .gameOver .inst { margin-top: 80px }
